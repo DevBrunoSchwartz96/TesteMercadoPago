@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 0.1rem 1rem; 
+  background-color: #f8f8f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+  height: 70px;
+}
+
+.header.hidden {
+  transform: translateY(-100%);
+  opacity: 0; 
+}
+
+.header.visible {
+  transform: translateY(0); 
+  opacity: 1; 
+}
+
+.logo img {
+  width: 200px;
+  margin-left: 50px;
+}
+

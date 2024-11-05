@@ -1,0 +1,11 @@
+.search-bar-container {
+  z-index: 10;
+
+}
+
+/* Media query para telas com largura máxima de 768px */
+@media (max-width: 768px) {
+  .search-bar-container {
+    margin-top: -110px !important; 
+  }
+}

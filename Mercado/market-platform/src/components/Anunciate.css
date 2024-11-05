@@ -1,0 +1,28 @@
+.anunciate-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
+  
+  .toggle-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .benefits-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .action-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Espaçamento entre os botões */
+  }
+  
