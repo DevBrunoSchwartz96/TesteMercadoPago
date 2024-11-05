@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Management</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/table.css">
+</head>
+<body>
+  <h1>User Management</h1>
+
+  <h2>Users</h2>
+  <section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Table #01</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table  id="userTable" border="1" class="table">
+						  <thead class="thead-primary">
+						    <tr>
+								<th>ID</th>
+								<th>CODVEND</th>
+								<th>NOME</th>
+								<th>TIPOMETA</th>
+								<th>DATA</th>
+								<th>Action</th>
+						    </tr>
+						  </thead>
+						 
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+  <h2>Add User</h2>
+  <form id="userForm" method="POST">
+    <label for="codvend">CODVEND:</label>
+    <input type="text" id="codvend" name="codvend" required><br>
+    
+    <label for="nome">NOME:</label>
+    <input type="text" id="nome" name="nome" required><br>
+    
+    <label for="tipometa">TIPOMETA:</label>
+    <input type="text" id="tipometa" name="tipometa" required><br>
+    
+    <label for="data">DATA:</label>
+    <input type="date" id="data" name="data" required><br>
+    
+    <input type="submit" value="Add User">
+  </form>
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="/scripts/popper.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+
+</body>
+</html>
